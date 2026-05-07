@@ -2663,9 +2663,23 @@
     .cat-btn { padding: 0.45rem 1rem; font-size: 0.78rem; }
   }
 </style>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 </head>
 <body>
 
+<script>
+  // Identity widget: 讓信件 token (invite/recovery) 可以正常運作
+  // 如果 token 被偵測到，跳轉到 /admin/ 處理（Decap CMS 才知道怎麼設密碼）
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 <!-- =================== NAV =================== -->
 <nav class="nav">
   <a href="https://inline.app/booking/-LOEHQ13SpdTwu988kFy:inline-live-2a466/-LOEHQ236YEKRtVWrJq6?language=zh-tw" target="_blank" rel="noopener" class="nav-logo">
