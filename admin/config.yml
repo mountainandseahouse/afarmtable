@@ -1,0 +1,171 @@
+# Decap CMS 設定檔
+# 文件參考: https://decapcms.org/docs/configuration-options/
+
+# 後端：使用 GitHub + Netlify Identity 的 Git Gateway
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: '✨ 新增 {{collection}}: {{slug}}'
+    update: '📝 更新 {{collection}}: {{slug}}'
+    delete: '🗑 刪除 {{collection}}: {{slug}}'
+    uploadMedia: '🖼 上傳圖片: {{path}}'
+    deleteMedia: '🗑 刪除圖片: {{path}}'
+
+# 媒體檔案存放位置
+media_folder: "images"
+public_folder: "/images"
+
+# 介面語言（Decap CMS 內建中文 i18n，但只有部分介面元素）
+locale: 'zh_Hant'
+
+# Collections（後台側邊欄會出現這些項目）
+collections:
+
+  # ===== 菜單 =====
+  - name: "menu"
+    label: "📋 菜單管理"
+    label_singular: "分類"
+    description: "管理所有菜單分類與菜色"
+    files:
+      - file: "_data/menu.json"
+        name: "menu_data"
+        label: "菜單資料"
+        editor:
+          preview: false
+        fields:
+          - label: "菜單分類"
+            name: "categories"  # 對應 menu.json 的最外層 array
+            widget: "list"
+            allow_add: false  # 分類數固定，不允許新增/刪除
+            collapsed: true
+            summary: "{{fields.meta.title}}（{{fields.items.length}} 項）"
+            fields:
+              - { label: "內部代號", name: "internal_name", widget: "string", hint: "勿改！這是程式辨識用", required: true }
+              - { label: "Tab data 屬性", name: "data_cat", widget: "string", hint: "勿改！這是 menu tab 切換用" }
+
+              - label: "分類資訊"
+                name: "meta"
+                widget: "object"
+                fields:
+                  - { label: "中文 tag（如「分享餐」）", name: "tag", widget: "string", required: false }
+                  - { label: "英文標題（如「COMBO」）", name: "title", widget: "string", required: false }
+                  - { label: "英文副標", name: "en", widget: "string", required: false }
+                  - { label: "分類描述（只 COMBO 用）", name: "desc", widget: "text", required: false }
+
+              - label: "菜色項目"
+                name: "items"
+                widget: "list"
+                collapsed: true
+                summary: "{{fields.name}} - {{fields.price}}"
+                # 用 types 區分普通菜 vs COMBO
+                types:
+                  - label: "普通菜（一般項目）"
+                    name: "item"
+                    widget: "object"
+                    fields:
+                      - { label: "菜名", name: "name", widget: "string", required: true }
+                      - { label: "英文副標", name: "en", widget: "string", required: false }
+                      - { label: "價格（含 $ 符號，如 $580）", name: "price", widget: "string", required: true }
+                      - { label: "描述", name: "desc", widget: "text", required: false }
+                      - label: "標籤（如「招牌」「人氣」）"
+                        name: "tags"
+                        widget: "list"
+                        required: false
+                        collapsed: true
+                        summary: "{{fields.text}}"
+                        fields:
+                          - { label: "文字", name: "text", widget: "string" }
+                          - label: "樣式"
+                            name: "style"
+                            widget: "select"
+                            options:
+                              - { label: "預設（綠底白字）", value: "" }
+                              - { label: "說明（黑底，較低調）", value: " note" }
+                              - { label: "新品（紅底）", value: " new" }
+                            default: ""
+                      - { label: "照片", name: "image", widget: "image", required: false, hint: "上傳餐點照片，建議直式 2:3 或橫式 3:2" }
+                      - { label: "寬版（跨兩欄）", name: "wide", widget: "boolean", default: false, hint: "勾選後此卡片會橫跨兩欄" }
+                      - { label: "類型（請保持為 item）", name: "type", widget: "hidden", default: "item" }
+
+                  - label: "套餐（COMBO 專用）"
+                    name: "combo"
+                    widget: "object"
+                    fields:
+                      - { label: "菜名", name: "name", widget: "string", required: true }
+                      - { label: "英文副標", name: "en", widget: "string", required: false }
+                      - { label: "價格（含 $ 符號）", name: "price", widget: "string", required: true }
+                      - label: "標籤（招牌 / 人氣 / 約 X 人份 等）"
+                        name: "tags"
+                        widget: "list"
+                        required: false
+                        collapsed: true
+                        summary: "{{fields.text}}"
+                        fields:
+                          - { label: "文字", name: "text", widget: "string" }
+                          - label: "樣式"
+                            name: "style"
+                            widget: "select"
+                            options:
+                              - { label: "預設", value: "" }
+                              - { label: "說明（較低調）", value: " note" }
+                            default: ""
+                      - label: "包含內容"
+                        name: "includes"
+                        widget: "list"
+                        field: { label: "項目", name: "item", widget: "string" }
+                        required: false
+                      - { label: "類型（請保持為 combo）", name: "type", widget: "hidden", default: "combo" }
+
+  # ===== 餐廳空間 =====
+  - name: "space"
+    label: "🏠 餐廳空間"
+    description: "編輯餐廳空間區塊（標題、描述、圖片）"
+    files:
+      - file: "_data/space.json"
+        name: "space_data"
+        label: "空間區塊"
+        fields:
+          - { label: "區塊編號（如「04 — RESTAURANT SPACE」）", name: "section_num", widget: "string" }
+          - { label: "區塊大標題（HTML 容許）", name: "section_title_html", widget: "string", hint: "可用 <br> 換行、<em>強調</em>" }
+          - { label: "區塊副標", name: "section_tag", widget: "text", hint: "可用 <br> 換行" }
+
+          - label: "陽光區（Hero 大圖區塊）"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "圖片", name: "image", widget: "image" }
+              - { label: "圖片替代文字（alt）", name: "alt", widget: "string" }
+              - { label: "Zone 號碼", name: "zone_num", widget: "string", default: "3" }
+              - { label: "Zone 英文（ZONE THREE）", name: "zone_en", widget: "string" }
+              - { label: "標題（HTML 容許）", name: "title_html", widget: "string", hint: "可用 <em>標籤</em>" }
+              - { label: "描述", name: "desc", widget: "text" }
+              - label: "Meta 標籤（適合 / 氛圍 等）"
+                name: "meta"
+                widget: "list"
+                summary: "{{fields.label}}：{{fields.value}}"
+                fields:
+                  - { label: "標籤", name: "label", widget: "string" }
+                  - { label: "內容", name: "value", widget: "string" }
+
+          - label: "三張小卡（Trio）"
+            name: "trio"
+            widget: "list"
+            collapsed: false
+            summary: "{{fields.title_html}}"
+            allow_add: true
+            fields:
+              - { label: "圖片", name: "image", widget: "image" }
+              - { label: "圖片替代文字（alt）", name: "alt", widget: "string" }
+              - { label: "Zone 號碼", name: "zone_num", widget: "string", required: false }
+              - { label: "Zone 標籤（如 ZONE ONE / KIDS PLAY）", name: "zone_label", widget: "string" }
+              - { label: "Zone 標籤是否使用 SVG 圖示（KIDS PLAY 用）", name: "has_icon", widget: "boolean", default: false }
+              - label: "標籤底色"
+                name: "tag_style"
+                widget: "select"
+                options:
+                  - { label: "預設（深綠底）", value: "" }
+                  - { label: "紅土色（KIDS PLAY 用）", value: "clay" }
+                default: ""
+              - { label: "標題（HTML 容許）", name: "title_html", widget: "string", hint: "可用 <em>標籤</em>" }
+              - { label: "描述", name: "desc", widget: "text" }

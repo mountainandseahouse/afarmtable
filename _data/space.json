@@ -1,0 +1,54 @@
+{
+  "section_num": "04 — RESTAURANT SPACE",
+  "section_title_html": "三個區域<br><em>一個家</em>的溫度",
+  "section_tag": "從陽光灑落的玻璃屋，<br>到孩子的迷你廚房——<br>每個角落都是故事",
+  "hero": {
+    "image": "/images/space/hero.webp",
+    "alt": "農人餐桌 陽光區",
+    "zone_num": "3",
+    "zone_en": "ZONE THREE",
+    "title_html": "陽光區 <em>· Conservatory</em>",
+    "desc": "半開放式玻璃屋頂，自然光灑落整個用餐空間。中央常駐的動物森林造景，是孩子們爭相拍照的人氣角落。傍晚時分，串燈與夕光交疊，整個區域像一場永遠不會結束的野餐。",
+    "meta": [
+      {
+        "label": "適合",
+        "value": "親子聚餐 ・ 慶生 ・ 拍照打卡"
+      },
+      {
+        "label": "氛圍",
+        "value": "明亮 ・ 開闊 ・ 自然光"
+      }
+    ]
+  },
+  "trio": [
+    {
+      "image": "/images/space/zone1.webp",
+      "alt": "農人餐桌 一區",
+      "tag_style": "",
+      "zone_num": "1",
+      "zone_label": "ZONE ONE",
+      "has_icon": false,
+      "title_html": "第一用餐區 <em>First Dining</em>",
+      "desc": "仿穀倉風格的用餐空間：工業吊燈、白色磚牆、木質長桌，搭配三幅插畫海報，是品牌經典視覺角落。"
+    },
+    {
+      "image": "/images/space/zone2.webp",
+      "alt": "農人餐桌 二區",
+      "tag_style": "",
+      "zone_num": "2",
+      "zone_label": "ZONE TWO",
+      "has_icon": false,
+      "title_html": "主用餐區 <em>Main Dining</em>",
+      "desc": "挑高寬敞的主要用餐空間，木質長桌與滑軌穀倉門勾勒開放卻獨立的氛圍——是小型聚會、企業午餐與家族慶生的理想場地。"
+    },
+    {
+      "image": "/images/space/zone3.webp",
+      "alt": "農人餐桌 親子廚房",
+      "tag_style": "clay",
+      "zone_label": "KIDS PLAY",
+      "has_icon": true,
+      "title_html": "親子廚房體驗區 <em>Mini Kitchen</em>",
+      "desc": "為孩子打造的迷你料理遊戲區：仿真廚房玩具、收銀台、農場食材模型——爸媽用餐的時候，小朋友也能盡情扮家家酒。"
+    }
+  ]
+}
