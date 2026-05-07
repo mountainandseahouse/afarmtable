@@ -97,8 +97,7 @@ function renderSection(sec) {
   // 渲染項目
   let itemsBlock;
   if (sec.internal_name === 'COMBO') {
-    const comboList = sec.combos || sec.items || [];
-    const cards = comboList.map(renderComboCard).join('\n\n');
+    const cards = (sec.items || []).map(renderComboCard).join('\n\n');
     itemsBlock = `\n    <div class="combo-grid">\n${cards}\n    </div>`;
   } else {
     const items = (sec.items || []).map(renderMenuItem).join('\n\n');
@@ -124,8 +123,7 @@ const menuHtml = menu.map(renderSection).join('\n\n');
 // 改用相對路徑而不是 base64
 const dishPhotos = {};
 menu.forEach(sec => {
-  const list = sec.items || sec.combos || [];
-  list.forEach(item => {
+  (sec.items || []).forEach(item => {
     if (item.image && item.name) {
       dishPhotos[item.name] = item.image;
     }
