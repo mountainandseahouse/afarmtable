@@ -1,0 +1,19 @@
+# Netlify 設定檔
+
+[build]
+  # build command：執行 build.js 產生 dist/
+  command = "node build.js"
+  # 發佈目錄
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Netlify Identity widget 注入（讓主站也能顯示登入彈窗）
+# 這在 admin/index.html 已經處理，不需要全站注入
+
+# 標頭設定（讓 admin 頁面不被搜尋引擎收錄）
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

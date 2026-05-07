@@ -1,0 +1,11 @@
+{
+  "name": "afarmtable",
+  "version": "1.0.0",
+  "description": "農人餐桌官網",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
