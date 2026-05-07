@@ -1,563 +1,565 @@
-[
-  {
-    "internal_name": "COMBO",
-    "data_cat": "combo",
-    "meta": {
-      "tag": "分享餐",
-      "title": "COMBO",
-      "en": "FOR FAMILY SHARING",
-      "desc": "與家人朋友一起分享的豐盛時光。所有豬肉原料來源皆為台灣，海鮮選自生態養殖與野生捕撈，主廚精心搭配，份量飽足。"
+{
+  "categories": [
+    {
+      "internal_name": "COMBO",
+      "data_cat": "combo",
+      "meta": {
+        "tag": "分享餐",
+        "title": "COMBO",
+        "en": "FOR FAMILY SHARING",
+        "desc": "與家人朋友一起分享的豐盛時光。所有豬肉原料來源皆為台灣，海鮮選自生態養殖與野生捕撈，主廚精心搭配，份量飽足。"
+      },
+      "combos": [
+        {
+          "tags": [
+            {
+              "style": "",
+              "text": "招牌"
+            },
+            {
+              "style": "note",
+              "text": "約 3 人份"
+            }
+          ],
+          "name": "嚴選海陸歡樂餐",
+          "en": "Surf and Turf Set",
+          "price": "$1,580",
+          "includes": [
+            "酥脆南方綜合炸雞",
+            "炙烤香料戰斧豬排",
+            "炙烤綜合海鮮（霸王蝦、野生花枝或透抽、生態淡菜）",
+            "Ken Bakery 綜合麵包（4 顆）",
+            "法國艾許迷你奶油",
+            "波隆納肉醬時蔬義大利麵",
+            "穀物時蔬沙拉"
+          ],
+          "image": "/images/menu/嚴選海陸歡樂餐.webp"
+        },
+        {
+          "tags": [
+            {
+              "style": "",
+              "text": "人氣"
+            },
+            {
+              "style": "note",
+              "text": "2 人份"
+            }
+          ],
+          "name": "披薩炸物雙人歡樂餐",
+          "en": "Fried Chicken & Fries with Pizza Set",
+          "price": "$580",
+          "includes": [
+            "6 吋農人夏威夷披薩",
+            "酥脆南方綜合炸雞",
+            "難得好油炸薯條"
+          ],
+          "image": "/images/menu/披薩炸物雙人歡樂餐.webp"
+        }
+      ],
+      "type": "combo"
     },
-    "combos": [
-      {
-        "tags": [
-          {
-            "style": "",
-            "text": "招牌"
-          },
-          {
-            "style": "note",
-            "text": "約 3 人份"
-          }
-        ],
-        "name": "嚴選海陸歡樂餐",
-        "en": "Surf and Turf Set",
-        "price": "$1,580",
-        "includes": [
-          "酥脆南方綜合炸雞",
-          "炙烤香料戰斧豬排",
-          "炙烤綜合海鮮（霸王蝦、野生花枝或透抽、生態淡菜）",
-          "Ken Bakery 綜合麵包（4 顆）",
-          "法國艾許迷你奶油",
-          "波隆納肉醬時蔬義大利麵",
-          "穀物時蔬沙拉"
-        ],
-        "image": "/images/menu/嚴選海陸歡樂餐.webp"
+    {
+      "internal_name": "MEAT",
+      "data_cat": "meat",
+      "meta": {
+        "tag": "主餐",
+        "title": "紅白肉肉控",
+        "en": "FISH & MEAT",
+        "desc": "優質蛋白質，追求健康飲食之外還提供了各種美味，選自蘇格蘭鮭魚以及生態養殖鱸魚，台灣土生土養正黑豬及放養古早雞！"
       },
-      {
-        "tags": [
-          {
-            "style": "",
-            "text": "人氣"
-          },
-          {
-            "style": "note",
-            "text": "2 人份"
-          }
-        ],
-        "name": "披薩炸物雙人歡樂餐",
-        "en": "Fried Chicken & Fries with Pizza Set",
-        "price": "$580",
-        "includes": [
-          "6 吋農人夏威夷披薩",
-          "酥脆南方綜合炸雞",
-          "難得好油炸薯條"
-        ],
-        "image": "/images/menu/披薩炸物雙人歡樂餐.webp"
-      }
-    ],
-    "type": "combo"
-  },
-  {
-    "internal_name": "MEAT",
-    "data_cat": "meat",
-    "meta": {
-      "tag": "主餐",
-      "title": "紅白肉肉控",
-      "en": "FISH & MEAT",
-      "desc": "優質蛋白質，追求健康飲食之外還提供了各種美味，選自蘇格蘭鮭魚以及生態養殖鱸魚，台灣土生土養正黑豬及放養古早雞！"
+      "items": [
+        {
+          "wide": false,
+          "name": "炭烤美國 Prime 自然牛翼板牛排",
+          "en": "Grilled USDA Prime Flat Iron Steak",
+          "desc": "美國 Prime 自然牛翼板牛排、南瓜番薯泥、季節時蔬、綠胡椒奶油",
+          "image": "/images/menu/炭烤美國_Prime_自然牛翼板牛排.webp"
+        },
+        {
+          "wide": false,
+          "name": "蘇格蘭鮭魚排佐青醬酪梨莎莎",
+          "en": "Pan-fried Salmon with Avocado Salsa Sauce",
+          "desc": "蘇格蘭鮭魚排、酪梨莎莎醬、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/蘇格蘭鮭魚排佐青醬酪梨莎莎.webp"
+        },
+        {
+          "wide": false,
+          "name": "煙燻和牛佐 BBQ 醬",
+          "en": "Smoked Wagyu Beef with BBQ Sauce",
+          "desc": "澳洲和牛牛胸腹、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/煙燻和牛佐_BBQ_醬.webp"
+        },
+        {
+          "wide": false,
+          "name": "香蒜鱸魚排佐青醬酪梨莎莎",
+          "en": "Pan-fried Seabass with Avocado Salsa Sauce",
+          "desc": "海水生態鱸魚排、酪梨莎莎醬、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/香蒜鱸魚排佐青醬酪梨莎莎.webp"
+        },
+        {
+          "wide": false,
+          "name": "炙烤香料戰斧豬排",
+          "en": "Grilled Spiced Tomahawk Pork Chop",
+          "desc": "台灣正黑豬戰斧豬排、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/炙烤香料戰斧豬排.webp"
+        },
+        {
+          "wide": false,
+          "name": "佛羅倫斯燉牛肉",
+          "en": "Florence Stewed Beef",
+          "desc": "佛羅倫斯燉牛肉（澳洲牧草放養牛肉）、法國麵包片、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/佛羅倫斯燉牛肉.jpg"
+        },
+        {
+          "wide": false,
+          "name": "香煎鹽味雞腿排",
+          "en": "Sautéed Chicken Thigh Fillet",
+          "desc": "椒鹽雞腿排、南瓜番薯泥、季節時蔬",
+          "image": "/images/menu/香煎鹽味雞腿排.webp"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "name": "炭烤美國 Prime 自然牛翼板牛排",
-        "en": "Grilled USDA Prime Flat Iron Steak",
-        "desc": "美國 Prime 自然牛翼板牛排、南瓜番薯泥、季節時蔬、綠胡椒奶油",
-        "image": "/images/menu/炭烤美國_Prime_自然牛翼板牛排.webp"
+    {
+      "internal_name": "PASTA",
+      "data_cat": "pasta",
+      "meta": {
+        "tag": "主餐",
+        "title": "西式療癒",
+        "en": "PASTA & RISOTTO",
+        "desc": "GREEN & SAFE 省時達人，加上主廚妙手烹煮料理，飽足感 UP！UP！"
       },
-      {
-        "wide": false,
-        "name": "蘇格蘭鮭魚排佐青醬酪梨莎莎",
-        "en": "Pan-fried Salmon with Avocado Salsa Sauce",
-        "desc": "蘇格蘭鮭魚排、酪梨莎莎醬、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/蘇格蘭鮭魚排佐青醬酪梨莎莎.webp"
-      },
-      {
-        "wide": false,
-        "name": "煙燻和牛佐 BBQ 醬",
-        "en": "Smoked Wagyu Beef with BBQ Sauce",
-        "desc": "澳洲和牛牛胸腹、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/煙燻和牛佐_BBQ_醬.webp"
-      },
-      {
-        "wide": false,
-        "name": "香蒜鱸魚排佐青醬酪梨莎莎",
-        "en": "Pan-fried Seabass with Avocado Salsa Sauce",
-        "desc": "海水生態鱸魚排、酪梨莎莎醬、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/香蒜鱸魚排佐青醬酪梨莎莎.webp"
-      },
-      {
-        "wide": false,
-        "name": "炙烤香料戰斧豬排",
-        "en": "Grilled Spiced Tomahawk Pork Chop",
-        "desc": "台灣正黑豬戰斧豬排、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/炙烤香料戰斧豬排.webp"
-      },
-      {
-        "wide": false,
-        "name": "佛羅倫斯燉牛肉",
-        "en": "Florence Stewed Beef",
-        "desc": "佛羅倫斯燉牛肉（澳洲牧草放養牛肉）、法國麵包片、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/佛羅倫斯燉牛肉.jpg"
-      },
-      {
-        "wide": false,
-        "name": "香煎鹽味雞腿排",
-        "en": "Sautéed Chicken Thigh Fillet",
-        "desc": "椒鹽雞腿排、南瓜番薯泥、季節時蔬",
-        "image": "/images/menu/香煎鹽味雞腿排.webp"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "PASTA",
-    "data_cat": "pasta",
-    "meta": {
-      "tag": "主餐",
-      "title": "西式療癒",
-      "en": "PASTA & RISOTTO",
-      "desc": "GREEN & SAFE 省時達人，加上主廚妙手烹煮料理，飽足感 UP！UP！"
+      "items": [
+        {
+          "wide": false,
+          "name": "生態海鮮義大利麵",
+          "en": "Eco Seafood Pasta with Tomato Sauce",
+          "desc": "生態霸王蝦、海水生態鱸魚排、澎湖現撈野生花枝或透抽、生態淡菜",
+          "image": "/images/menu/生態海鮮義大利麵.jpg"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "veg",
+              "text": "五辛蛋奶素"
+            }
+          ],
+          "name": "牛肝菌松露野菇燉飯",
+          "en": "Truffle Mushroom Risotto",
+          "desc": "義大利牛肝菌白醬、松露醬、季節時蔬",
+          "image": "/images/menu/牛肝菌松露野菇燉飯.webp"
+        },
+        {
+          "wide": false,
+          "name": "手工義式千層麵",
+          "en": "Handmade Lasagna (Beef & Pork)",
+          "desc": "澳洲牧草放養牛肉、台灣豬肉、莫扎瑞拉、切達起士、青花菜",
+          "image": "/images/menu/手工義式千層麵.jpg"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "name": "生態海鮮義大利麵",
-        "en": "Eco Seafood Pasta with Tomato Sauce",
-        "desc": "生態霸王蝦、海水生態鱸魚排、澎湖現撈野生花枝或透抽、生態淡菜",
-        "image": "/images/menu/生態海鮮義大利麵.jpg"
+    {
+      "internal_name": "VEGGIE",
+      "data_cat": "veggie",
+      "meta": {
+        "tag": "主餐",
+        "title": "健康蔬食",
+        "en": "LIGHT & VEGGIE MAIN",
+        "desc": "精心挑選的新鮮蔬菜，豐富營養帶來健康，一起享受美食的同時，也為地球盡一份心力！"
       },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "veg",
-            "text": "五辛蛋奶素"
-          }
-        ],
-        "name": "牛肝菌松露野菇燉飯",
-        "en": "Truffle Mushroom Risotto",
-        "desc": "義大利牛肝菌白醬、松露醬、季節時蔬",
-        "image": "/images/menu/牛肝菌松露野菇燉飯.webp"
-      },
-      {
-        "wide": false,
-        "name": "手工義式千層麵",
-        "en": "Handmade Lasagna (Beef & Pork)",
-        "desc": "澳洲牧草放養牛肉、台灣豬肉、莫扎瑞拉、切達起士、青花菜",
-        "image": "/images/menu/手工義式千層麵.jpg"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "VEGGIE",
-    "data_cat": "veggie",
-    "meta": {
-      "tag": "主餐",
-      "title": "健康蔬食",
-      "en": "LIGHT & VEGGIE MAIN",
-      "desc": "精心挑選的新鮮蔬菜，豐富營養帶來健康，一起享受美食的同時，也為地球盡一份心力！"
+      "items": [
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "阿根廷天使紅蝦烤時蔬",
+          "en": "Grilled Seasonal Vegetables with Argentine Red Shrimp",
+          "desc": "阿根廷天使紅蝦仁、法國麵包片、季節時蔬",
+          "image": "/images/menu/阿根廷天使紅蝦烤時蔬.webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "note",
+              "text": "平日午餐限量"
+            }
+          ],
+          "name": "舒肥嫩雞胸佐穀物時蔬沙拉",
+          "en": "Chicken Breast with Grain Salad",
+          "desc": "放養古早雞雞胸肉、酪梨、烤彩椒、豆干、地瓜、穀物時蔬、烘乾番茄、溏心蛋（蛋白質含量 36.4g）",
+          "image": "/images/menu/舒肥嫩雞胸佐穀物時蔬沙拉.jpg"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "veg",
+              "text": "蛋奶素"
+            }
+          ],
+          "name": "菇菇堅果佐穀物時蔬沙拉",
+          "en": "Mixed Vegetable and Nuts with Grain Salad",
+          "desc": "陶立克菇、蠔菇、綜合堅果、酪梨、烤彩椒、豆干、地瓜、穀物時蔬、烘乾番茄、溏心蛋",
+          "image": "/images/menu/菇菇堅果佐穀物時蔬沙拉.jpg"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "阿根廷天使紅蝦烤時蔬",
-        "en": "Grilled Seasonal Vegetables with Argentine Red Shrimp",
-        "desc": "阿根廷天使紅蝦仁、法國麵包片、季節時蔬",
-        "image": "/images/menu/阿根廷天使紅蝦烤時蔬.webp"
+    {
+      "internal_name": "KIDS",
+      "data_cat": "kids",
+      "meta": {
+        "tag": "兒童餐",
+        "title": "Kids & Baby",
+        "en": "KIDS MENU & BABY FOOD",
+        "desc": "<b>限 12 歲以下點用 ・ 兒童餐皆附湯品 / 牛奶 / 果汁（飲品 3 選 1）</b>"
       },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "note",
-            "text": "平日午餐限量"
-          }
-        ],
-        "name": "舒肥嫩雞胸佐穀物時蔬沙拉",
-        "en": "Chicken Breast with Grain Salad",
-        "desc": "放養古早雞雞胸肉、酪梨、烤彩椒、豆干、地瓜、穀物時蔬、烘乾番茄、溏心蛋（蛋白質含量 36.4g）",
-        "image": "/images/menu/舒肥嫩雞胸佐穀物時蔬沙拉.jpg"
-      },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "veg",
-            "text": "蛋奶素"
-          }
-        ],
-        "name": "菇菇堅果佐穀物時蔬沙拉",
-        "en": "Mixed Vegetable and Nuts with Grain Salad",
-        "desc": "陶立克菇、蠔菇、綜合堅果、酪梨、烤彩椒、豆干、地瓜、穀物時蔬、烘乾番茄、溏心蛋",
-        "image": "/images/menu/菇菇堅果佐穀物時蔬沙拉.jpg"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "KIDS",
-    "data_cat": "kids",
-    "meta": {
-      "tag": "兒童餐",
-      "title": "Kids & Baby",
-      "en": "KIDS MENU & BABY FOOD",
-      "desc": "<b>限 12 歲以下點用 ・ 兒童餐皆附湯品 / 牛奶 / 果汁（飲品 3 選 1）</b>"
+      "items": [
+        {
+          "wide": false,
+          "name": "小兔兔日式咖哩雞肉飯",
+          "en": "Japanese Chicken Curry Rice",
+          "desc": "日式咖哩雞、青花菜、紅蘿蔔、白蘿蔔",
+          "image": "/images/menu/小兔兔日式咖哩雞肉飯.webp"
+        },
+        {
+          "wide": false,
+          "name": "Red 鳥寶寶肉醬麵",
+          "en": "Bolognese Pasta (Beef & Pork)",
+          "desc": "義大利波隆納肉醬（澳洲牛肉、台灣豬肉）、青花菜、切達乾酪切片",
+          "image": "/images/menu/Red_鳥寶寶肉醬麵.webp"
+        },
+        {
+          "wide": false,
+          "name": "森林派對飯糰",
+          "en": "Handmade Rice Balls",
+          "desc": "台灣豬肉鬆、鰹節香鬆、玉米、安心沙拉醬",
+          "image": "/images/menu/森林派對飯糰.webp"
+        },
+        {
+          "wide": false,
+          "name": "農人夏威夷披薩",
+          "en": "Hawaiian Pizza",
+          "desc": "台灣正黑豬培根、金鑽鳳梨",
+          "image": "/images/menu/農人夏威夷披薩.webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "note",
+              "text": "寶寶粥"
+            }
+          ],
+          "name": "番茄牛肉寶寶粥",
+          "en": "Beef Congee with Tomato",
+          "desc": "美國 Prime 牛絞肉、番茄、紅蘿蔔、白米",
+          "image": "/images/menu/番茄牛肉寶寶粥.webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "note",
+              "text": "寶寶粥"
+            }
+          ],
+          "name": "玉米雞茸寶寶粥",
+          "en": "Chicken Congee with Corn",
+          "desc": "甜玉米、放養古早雞肉、紅蘿蔔、白米",
+          "image": "/images/menu/玉米雞茸寶寶粥.webp"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "name": "小兔兔日式咖哩雞肉飯",
-        "en": "Japanese Chicken Curry Rice",
-        "desc": "日式咖哩雞、青花菜、紅蘿蔔、白蘿蔔",
-        "image": "/images/menu/小兔兔日式咖哩雞肉飯.webp"
+    {
+      "internal_name": "SIDE",
+      "data_cat": "side",
+      "meta": {
+        "tag": "炸物 · 湯品",
+        "title": "Side Dishes",
+        "en": "SIDE DISH · SOUP · BREAD"
       },
-      {
-        "wide": false,
-        "name": "Red 鳥寶寶肉醬麵",
-        "en": "Bolognese Pasta (Beef & Pork)",
-        "desc": "義大利波隆納肉醬（澳洲牛肉、台灣豬肉）、青花菜、切達乾酪切片",
-        "image": "/images/menu/Red_鳥寶寶肉醬麵.webp"
-      },
-      {
-        "wide": false,
-        "name": "森林派對飯糰",
-        "en": "Handmade Rice Balls",
-        "desc": "台灣豬肉鬆、鰹節香鬆、玉米、安心沙拉醬",
-        "image": "/images/menu/森林派對飯糰.webp"
-      },
-      {
-        "wide": false,
-        "name": "農人夏威夷披薩",
-        "en": "Hawaiian Pizza",
-        "desc": "台灣正黑豬培根、金鑽鳳梨",
-        "image": "/images/menu/農人夏威夷披薩.webp"
-      },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "note",
-            "text": "寶寶粥"
-          }
-        ],
-        "name": "番茄牛肉寶寶粥",
-        "en": "Beef Congee with Tomato",
-        "desc": "美國 Prime 牛絞肉、番茄、紅蘿蔔、白米",
-        "image": "/images/menu/番茄牛肉寶寶粥.webp"
-      },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "note",
-            "text": "寶寶粥"
-          }
-        ],
-        "name": "玉米雞茸寶寶粥",
-        "en": "Chicken Congee with Corn",
-        "desc": "甜玉米、放養古早雞肉、紅蘿蔔、白米",
-        "image": "/images/menu/玉米雞茸寶寶粥.webp"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "SIDE",
-    "data_cat": "side",
-    "meta": {
-      "tag": "炸物 · 湯品",
-      "title": "Side Dishes",
-      "en": "SIDE DISH · SOUP · BREAD"
+      "items": [
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "",
+              "text": "HOT"
+            }
+          ],
+          "name": "酥脆南方綜合炸雞籃",
+          "en": "Fried Chicken Basket",
+          "desc": "放養古早雞（二節翅 ×4、翅小腿 ×4）",
+          "image": "/images/menu/酥脆南方綜合炸雞籃.webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "農人手作起司條",
+          "en": "Fried Mozzarella Sticks",
+          "desc": "莫扎瑞拉起司（5 條）",
+          "image": "/images/menu/農人手作起司條.webp"
+        },
+        {
+          "wide": false,
+          "name": "難得好油炸薯條",
+          "en": "Fried Fries in Quality Oil",
+          "desc": "100% 馬鈴薯",
+          "image": "/images/menu/難得好油炸薯條.webp"
+        },
+        {
+          "wide": false,
+          "name": "Ken Bakery 綜合麵包籃",
+          "en": "Bread Basket from Ken Bakery",
+          "desc": "玫瑰鹽可頌 / 雞蛋牛奶 / 橄欖油餐包",
+          "image": "/images/menu/Ken_Bakery_綜合麵包籃.webp"
+        },
+        {
+          "wide": false,
+          "name": "森林蘑菇湯",
+          "en": "Creamy Mushroom Soup",
+          "desc": "主廚熬煮的香醇奶油蘑菇湯",
+          "image": "/images/menu/森林蘑菇湯.webp"
+        },
+        {
+          "wide": false,
+          "name": "金黃玉米湯",
+          "en": "Corn Soup",
+          "desc": "嚴選甜玉米熬煮，金黃濃郁",
+          "image": "/images/menu/金黃玉米湯.webp"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "",
-            "text": "HOT"
-          }
-        ],
-        "name": "酥脆南方綜合炸雞籃",
-        "en": "Fried Chicken Basket",
-        "desc": "放養古早雞（二節翅 ×4、翅小腿 ×4）",
-        "image": "/images/menu/酥脆南方綜合炸雞籃.webp"
+    {
+      "internal_name": "DESSERT",
+      "data_cat": "dessert",
+      "meta": {
+        "tag": "甜點",
+        "title": "Dessert",
+        "en": "SWEET FINISH"
       },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "農人手作起司條",
-        "en": "Fried Mozzarella Sticks",
-        "desc": "莫扎瑞拉起司（5 條）",
-        "image": "/images/menu/農人手作起司條.webp"
-      },
-      {
-        "wide": false,
-        "name": "難得好油炸薯條",
-        "en": "Fried Fries in Quality Oil",
-        "desc": "100% 馬鈴薯",
-        "image": "/images/menu/難得好油炸薯條.webp"
-      },
-      {
-        "wide": false,
-        "name": "Ken Bakery 綜合麵包籃",
-        "en": "Bread Basket from Ken Bakery",
-        "desc": "玫瑰鹽可頌 / 雞蛋牛奶 / 橄欖油餐包",
-        "image": "/images/menu/Ken_Bakery_綜合麵包籃.webp"
-      },
-      {
-        "wide": false,
-        "name": "森林蘑菇湯",
-        "en": "Creamy Mushroom Soup",
-        "desc": "主廚熬煮的香醇奶油蘑菇湯",
-        "image": "/images/menu/森林蘑菇湯.webp"
-      },
-      {
-        "wide": false,
-        "name": "金黃玉米湯",
-        "en": "Corn Soup",
-        "desc": "嚴選甜玉米熬煮，金黃濃郁",
-        "image": "/images/menu/金黃玉米湯.webp"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "DESSERT",
-    "data_cat": "dessert",
-    "meta": {
-      "tag": "甜點",
-      "title": "Dessert",
-      "en": "SWEET FINISH"
+      "items": [
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "經典檸檬塔",
+          "en": "Classic Lemon Tart",
+          "desc": "酸甜清爽，夏日最受歡迎",
+          "image": "/images/menu/經典檸檬塔.webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "手工草莓鮮奶酪",
+          "en": "Strawberry Panna Cotta",
+          "desc": "手工製作鮮奶酪，搭配新鮮草莓醬",
+          "image": "/images/menu/手工草莓鮮奶酪.webp"
+        },
+        {
+          "wide": false,
+          "name": "巴斯克乳酪蛋糕",
+          "en": "Basque Burnt Cheesecake",
+          "desc": "表面焦香、內餡濕潤的乳酪蛋糕",
+          "image": "/images/menu/巴斯克乳酪蛋糕.webp"
+        },
+        {
+          "wide": false,
+          "name": "趴趴走母雞蛋布丁",
+          "en": "Pudding",
+          "desc": "放養古早雞蛋手工製作，滑嫩濃醇",
+          "image": "/images/menu/趴趴走母雞蛋布丁.webp"
+        }
+      ],
+      "type": "regular"
     },
-    "items": [
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "經典檸檬塔",
-        "en": "Classic Lemon Tart",
-        "desc": "酸甜清爽，夏日最受歡迎",
-        "image": "/images/menu/經典檸檬塔.webp"
+    {
+      "internal_name": "DRINK",
+      "data_cat": "drink",
+      "meta": {
+        "tag": "飲料",
+        "title": "Beverages",
+        "en": "NON-ALCOHOLIC",
+        "desc": "凡點主餐搭配無酒精飲品，可折抵 <strong>$50</strong>"
       },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "手工草莓鮮奶酪",
-        "en": "Strawberry Panna Cotta",
-        "desc": "手工製作鮮奶酪，搭配新鮮草莓醬",
-        "image": "/images/menu/手工草莓鮮奶酪.webp"
-      },
-      {
-        "wide": false,
-        "name": "巴斯克乳酪蛋糕",
-        "en": "Basque Burnt Cheesecake",
-        "desc": "表面焦香、內餡濕潤的乳酪蛋糕",
-        "image": "/images/menu/巴斯克乳酪蛋糕.webp"
-      },
-      {
-        "wide": false,
-        "name": "趴趴走母雞蛋布丁",
-        "en": "Pudding",
-        "desc": "放養古早雞蛋手工製作，滑嫩濃醇",
-        "image": "/images/menu/趴趴走母雞蛋布丁.webp"
-      }
-    ],
-    "type": "regular"
-  },
-  {
-    "internal_name": "DRINK",
-    "data_cat": "drink",
-    "meta": {
-      "tag": "飲料",
-      "title": "Beverages",
-      "en": "NON-ALCOHOLIC",
-      "desc": "凡點主餐搭配無酒精飲品，可折抵 <strong>$50</strong>"
-    },
-    "items": [
-      {
-        "wide": false,
-        "name": "奇妙仙子杏仁銀耳露 (冷)",
-        "en": "Almond White Fungus (Iced)",
-        "price": "$150",
-        "image": "/images/menu/奇妙仙子杏仁銀耳露_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "小紅帽野莓酪飲 (冷)",
-        "en": "Mixed Raspberry, Blueberry & Strawberry with Yoghurt",
-        "price": "$150",
-        "image": "/images/menu/小紅帽野莓酪飲_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "大黃蜂香蕉牛奶 (冷)",
-        "en": "Banana Milk (Iced)",
-        "price": "$150",
-        "image": "/images/menu/大黃蜂香蕉牛奶_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "粉紅美莓 (冷)",
-        "en": "Mixed Berries Smoothie (Iced)",
-        "price": "$150",
-        "image": "/images/menu/粉紅美莓_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "奇異果超人 (冷)",
-        "en": "Mixed Kiwi Fruit, Komat & Apple Juice",
-        "price": "$150",
-        "image": "/images/menu/奇異果超人_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "綜合水果鮮茶 (冷/熱)",
-        "en": "Fresh Fruit Tea (Iced/Hot)",
-        "price": "$150",
-        "image": "/images/menu/綜合水果鮮茶_(冷_熱).webp"
-      },
-      {
-        "wide": false,
-        "name": "關山黑糖厚奶茶 (冷/熱)",
-        "en": "Brown Sugar Milk Tea",
-        "price": "$150",
-        "image": "/images/menu/關山黑糖厚奶茶_(冷_熱).webp"
-      },
-      {
-        "wide": false,
-        "name": "農人拿鐵 (冷/熱)",
-        "en": "Coffee Latte",
-        "price": "$150",
-        "image": "/images/menu/農人拿鐵_(冷_熱).webp"
-      },
-      {
-        "wide": false,
-        "name": "老樹紅茶 (冷)",
-        "en": "Old Tree Black Tea",
-        "price": "$100",
-        "image": "/images/menu/老樹紅茶_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "紅玉香紅茶 (熱)",
-        "en": "Ruby Aroma Black Tea",
-        "price": "$120",
-        "image": "/images/menu/紅玉香紅茶_(熱).webp"
-      },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "西西里檸檬氣泡咖啡 (冷)",
-        "en": "Sicilian Lemon Mint Espresso Tonic",
-        "price": "$150",
-        "image": "/images/menu/西西里檸檬氣泡咖啡_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "農人咖啡 (冷/熱)",
-        "en": "Americano",
-        "price": "$120",
-        "image": "/images/menu/農人咖啡_(冷_熱).webp"
-      },
-      {
-        "wide": false,
-        "name": "冬瓜檸檬 (冷)",
-        "en": "White Gourd Drink with Lemon",
-        "price": "$120",
-        "image": "/images/menu/冬瓜檸檬_(冷).webp"
-      },
-      {
-        "wide": false,
-        "tags": [
-          {
-            "style": "new",
-            "text": "NEW"
-          }
-        ],
-        "name": "柚花烏龍茶 (冷)",
-        "en": "Pomelo Flower Flavor Oolong Tea",
-        "price": "$120",
-        "image": "/images/menu/柚花烏龍茶_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "老樹紅茶 (冷)",
-        "en": "Sun Moon Lake Ruby Black Tea (Iced)",
-        "price": "$120",
-        "image": "/images/menu/老樹紅茶_(冷).webp"
-      },
-      {
-        "wide": false,
-        "name": "紅玉香紅茶 (熱)",
-        "en": "Sun Moon Lake Ruby Black Tea (Hot)",
-        "price": "$120",
-        "image": "/images/menu/紅玉香紅茶_(熱).webp"
-      },
-      {
-        "wide": false,
-        "name": "農場ㄋㄟㄋㄟ (冷/熱/兒童杯)",
-        "en": "Fresh Milk",
-        "price": "$120"
-      },
-      {
-        "wide": false,
-        "name": "現打蘋果汁 (兒童杯)",
-        "en": "Fresh Apple Juice",
-        "price": "$120"
-      },
-      {
-        "wide": true,
-        "tags": [
-          {
-            "style": "note",
-            "text": "山海樓聯名 · 酒精飲品不折抵 $50"
-          }
-        ],
-        "name": "山海樓聯名啤酒",
-        "en": "\"Sang-Yun\" Pomelo Flower Oolong Tea Beer",
-        "price": "$185",
-        "desc": "新鮮白柚花、清雅烏龍茶香 ・ 未滿 18 歲禁止飲酒，酒後不開車",
-        "image": "/images/menu/山海樓聯名啤酒.webp"
-      }
-    ],
-    "type": "regular"
-  }
-]
+      "items": [
+        {
+          "wide": false,
+          "name": "奇妙仙子杏仁銀耳露 (冷)",
+          "en": "Almond White Fungus (Iced)",
+          "price": "$150",
+          "image": "/images/menu/奇妙仙子杏仁銀耳露_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "小紅帽野莓酪飲 (冷)",
+          "en": "Mixed Raspberry, Blueberry & Strawberry with Yoghurt",
+          "price": "$150",
+          "image": "/images/menu/小紅帽野莓酪飲_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "大黃蜂香蕉牛奶 (冷)",
+          "en": "Banana Milk (Iced)",
+          "price": "$150",
+          "image": "/images/menu/大黃蜂香蕉牛奶_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "粉紅美莓 (冷)",
+          "en": "Mixed Berries Smoothie (Iced)",
+          "price": "$150",
+          "image": "/images/menu/粉紅美莓_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "奇異果超人 (冷)",
+          "en": "Mixed Kiwi Fruit, Komat & Apple Juice",
+          "price": "$150",
+          "image": "/images/menu/奇異果超人_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "綜合水果鮮茶 (冷/熱)",
+          "en": "Fresh Fruit Tea (Iced/Hot)",
+          "price": "$150",
+          "image": "/images/menu/綜合水果鮮茶_(冷_熱).webp"
+        },
+        {
+          "wide": false,
+          "name": "關山黑糖厚奶茶 (冷/熱)",
+          "en": "Brown Sugar Milk Tea",
+          "price": "$150",
+          "image": "/images/menu/關山黑糖厚奶茶_(冷_熱).webp"
+        },
+        {
+          "wide": false,
+          "name": "農人拿鐵 (冷/熱)",
+          "en": "Coffee Latte",
+          "price": "$150",
+          "image": "/images/menu/農人拿鐵_(冷_熱).webp"
+        },
+        {
+          "wide": false,
+          "name": "老樹紅茶 (冷)",
+          "en": "Old Tree Black Tea",
+          "price": "$100",
+          "image": "/images/menu/老樹紅茶_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "紅玉香紅茶 (熱)",
+          "en": "Ruby Aroma Black Tea",
+          "price": "$120",
+          "image": "/images/menu/紅玉香紅茶_(熱).webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "西西里檸檬氣泡咖啡 (冷)",
+          "en": "Sicilian Lemon Mint Espresso Tonic",
+          "price": "$150",
+          "image": "/images/menu/西西里檸檬氣泡咖啡_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "農人咖啡 (冷/熱)",
+          "en": "Americano",
+          "price": "$120",
+          "image": "/images/menu/農人咖啡_(冷_熱).webp"
+        },
+        {
+          "wide": false,
+          "name": "冬瓜檸檬 (冷)",
+          "en": "White Gourd Drink with Lemon",
+          "price": "$120",
+          "image": "/images/menu/冬瓜檸檬_(冷).webp"
+        },
+        {
+          "wide": false,
+          "tags": [
+            {
+              "style": "new",
+              "text": "NEW"
+            }
+          ],
+          "name": "柚花烏龍茶 (冷)",
+          "en": "Pomelo Flower Flavor Oolong Tea",
+          "price": "$120",
+          "image": "/images/menu/柚花烏龍茶_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "老樹紅茶 (冷)",
+          "en": "Sun Moon Lake Ruby Black Tea (Iced)",
+          "price": "$120",
+          "image": "/images/menu/老樹紅茶_(冷).webp"
+        },
+        {
+          "wide": false,
+          "name": "紅玉香紅茶 (熱)",
+          "en": "Sun Moon Lake Ruby Black Tea (Hot)",
+          "price": "$120",
+          "image": "/images/menu/紅玉香紅茶_(熱).webp"
+        },
+        {
+          "wide": false,
+          "name": "農場ㄋㄟㄋㄟ (冷/熱/兒童杯)",
+          "en": "Fresh Milk",
+          "price": "$120"
+        },
+        {
+          "wide": false,
+          "name": "現打蘋果汁 (兒童杯)",
+          "en": "Fresh Apple Juice",
+          "price": "$120"
+        },
+        {
+          "wide": true,
+          "tags": [
+            {
+              "style": "note",
+              "text": "山海樓聯名 · 酒精飲品不折抵 $50"
+            }
+          ],
+          "name": "山海樓聯名啤酒",
+          "en": "\"Sang-Yun\" Pomelo Flower Oolong Tea Beer",
+          "price": "$185",
+          "desc": "新鮮白柚花、清雅烏龍茶香 ・ 未滿 18 歲禁止飲酒，酒後不開車",
+          "image": "/images/menu/山海樓聯名啤酒.webp"
+        }
+      ],
+      "type": "regular"
+    }
+  ]
+}
