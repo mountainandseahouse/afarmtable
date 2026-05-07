@@ -22,7 +22,7 @@ const DIST_DIR = path.join(ROOT, 'dist');
 if (!fs.existsSync(DIST_DIR)) fs.mkdirSync(DIST_DIR, { recursive: true });
 
 // 讀資料
-const menu = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'menu.json'), 'utf-8'));
+const menu = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'menu.json'), 'utf-8')).categories;
 const space = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'space.json'), 'utf-8'));
 const forcePortrait = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'force_portrait.json'), 'utf-8'));
 
